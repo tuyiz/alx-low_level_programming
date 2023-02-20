@@ -7,22 +7,22 @@
  */
 int main(void)
 {
-	int i,d;
+	int d,p;
 
-	for (i = '0'; i < '9'; i++)
+	for (d = '0'; d < '9'; d++)
 	{
-		for (d = i + 1; d <= '9'; d++)
-		{
-		if (d != i)
-		{
-		putchar(i);
-		putchar(d);
-		if (i == '8' && '9')
-		continue;
-		putchar(',');
-		putchar(' ');
-		}
-		}
+	for (p = d + 1; p <= '9'; p++)
+	{
+	if (p != d)
+	{
+	if (d == '8' && p == '9')
+	continue;
+	putchar(d);
+	putchar(p);
+	putchar(',');
+	putchar(' ');
+	}
+	}
 	}
 	putchar('\n');
 	putchar(' ');
