@@ -2,7 +2,7 @@
 /**
  * _isalpha - chacks for alphabet charactors
  * @c : the charactor to be checked
- * return: for alphabet 1 and 0 for other 
+ * return: for alphabet 1 and 0 for other
  */
 
 int _isalpha(int c)
@@ -11,7 +11,7 @@ int _isalpha(int c)
 	{
 	return (1);
 	}
-	else 
+	else
 	return (0);
 }
 
